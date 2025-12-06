@@ -18,6 +18,7 @@ override.tf.json
 *_override.tf
 *_override.tf.json
 
-# .terraform.lock.hcl can be committed to ensure consistent provider versions
+.terraform.lock.hcl 
+#can be committed to ensure consistent provider versions
 # However, if you prefer to always use the latest, you can ignore it:
 # .terraform.lock.hcl
