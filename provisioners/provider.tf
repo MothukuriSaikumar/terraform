@@ -6,10 +6,11 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "practice86sterraformstate"
-    key    = "dynamic-block-sg"
-    region = "us-east-1"
+    bucket       = "practice86sterraformstate"
+    key          = "provisoners-provider-tf"
+    region       = "us-east-1"
     use_lockfile = true
-    encrypt = true
+    encrypt      = true
   }
+
 }
